@@ -1,0 +1,71 @@
+:root {
+    --color-background: 11, 22, 34;
+    --color-foreground: 21, 31, 46;
+    --color-foreground-grey: 15, 22, 31;
+    --color-foreground-grey-dark: 6, 12, 19;
+    --color-foreground-blue: 15, 22, 31;
+    --color-foreground-blue-dark: 6, 12, 19;
+    --color-text: 159, 173, 189;
+    --color-text-light: 114, 138, 161;
+    --color-text-lighter: 133, 150, 165;
+    --color-shadow-blue: 0, 5, 15;
+    --color-background-1200: 251, 251, 251;
+    --color-background-1100: 240, 243, 246;
+    --color-background-1000: 221, 230, 238;
+    --color-background-900: 201, 215, 227;
+    --color-background-800: 173, 192, 210;
+    --color-background-700: 139, 160, 178;
+    --color-background-600: 116, 136, 153;
+    --color-background-500: 100, 115, 128;
+    --color-background-400: 81, 97, 112;
+    --color-background-300: 30, 42, 56;
+    --color-background-100: 21, 31, 46;
+    --color-background-200: 11, 22, 34;
+    --color-gray-1200: 251, 251, 251;
+    --color-gray-1100: 240, 243, 246;
+    --color-gray-1000: 221, 230, 238;
+    --color-gray-900: 201, 215, 227;
+    --color-gray-800: 173, 192, 210;
+    --color-gray-700: 139, 160, 178;
+    --color-gray-600: 116, 136, 153;
+    --color-gray-500: 100, 115, 128;
+    --color-gray-400: 81, 97, 112;
+    --color-gray-300: 30, 42, 56;
+    --color-gray-100: 21, 31, 46;
+    --color-gray-200: 11, 22, 34;
+}
+
+.text-main{
+    color: rgb(var(--color-text))
+}
+.hidden{
+    display: none;
+}
+.bg-main {
+    background-color: rgb(var(--color-background));
+}
+
+.btn-main {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-right: 20px;
+    padding-left: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 1.3rem;
+    margin: 0 auto;
+    color: #fff !important;
+    background: linear-gradient(90deg, rgb(0, 57, 97) 0%, rgba(1, 169, 156, 1) 100%);
+    border-color: rgb(var(--color-background));
+    transition: 0.3s all ease;
+}
+
+.btn-main img {
+    text-shadow: 5px 5px 5px black;
+}
+
+.btn-main:hover {
+    opacity: 0.8;
+}
